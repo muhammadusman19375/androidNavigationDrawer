@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/nav_rate_it"
+            android:icon="@drawable/ic_rate_it"
+            android:title="Rate It" />
+
+        <item
+            android:id="@+id/nav_more_apps"
+            android:icon="@drawable/ic_android"
+            android:title="More Apps" />
+    </group>
+
+    <item android:title="Exit,Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
